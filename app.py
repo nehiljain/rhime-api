@@ -4,7 +4,7 @@ from flask_pymongo import PyMongo
 
 app = Flask(__name__)
 api = Api(app)
-
+mongo = PyMongo(app)
 
 def init_db():
     pass
